@@ -28,6 +28,10 @@ nav{
     transition: transform 0.4s;
 }
 
+.logo_port{
+    text-decoration: none;
+}
+
 span{
     color:#417cea;
 }
