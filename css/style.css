@@ -12,16 +12,17 @@ body{
 nav{
     width: 100%;
     position: fixed;
-    background-color: #373739;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 4%;
     padding-right: 5%;
+    z-index: 1;
 }
 
 .logo{
-    color: white;
+    color: #212121;
     font-size: 35px;
     letter-spacing: 1px;
     cursor: pointer;
@@ -33,7 +34,7 @@ nav{
 }
 
 span{
-    color:#417cea;
+    color:#5f5f5f;
 }
 
 nav ul{
@@ -47,19 +48,20 @@ nav ul li{
 }
 
 nav ul li a{
-    color: white;
+    color: #212121;
     text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
     text-transform: capitalize;
 }
 
 nav ul li a:hover{
-    color: #417cea;
+    color: #929292;
     transition: 0.4s;
 }
 
 .conteudo{
-    background-color: #0c0d0d;
+    background-color: #dcdcdc;
     width: 100%;
     height: 1000px;
     display: flex;
@@ -72,19 +74,19 @@ nav ul li a:hover{
 }
 
 h1{
-    color: white;
+    color: #212121;
     margin: 20px 0px 20px;
     font-size: 75px;
 }
 
 h3{
-    color: white;
+    color: #212121;
     margin-bottom: 30px;
     font-size: 35px;
 }
 
 h4{
-    color: white;
+    color: #212121;
     font-size: 30px; 
 }
 
@@ -97,7 +99,7 @@ h4{
 .sobre{
     width: 100%;
     padding: 100px 0px;
-    background-color: #373739;
+    background-color: white;
 }
 
 .sobre_tex{
@@ -117,7 +119,7 @@ h4{
 }
 
 .sobre_tex h2{
-    color: white;
+    color: #212121;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 15px;
@@ -125,7 +127,7 @@ h4{
 }
 
 .sobre_tex h5{
-    color: white;
+    color: #212121;
     letter-spacing: 2px;
     font-size: 28px;
     text-transform: capitalize;
@@ -134,10 +136,10 @@ h4{
 }
 
 .sobre_tex p{
-    color: white;
+    color: #212121;
     letter-spacing: 1px;
     line-height: 28px;
-    font-size: 22px;
+    font-size: 24px;
     text-align: justify;
     margin-bottom: 20px;
 }
@@ -161,13 +163,13 @@ button:hover{
 }
 
 .habilidades{
-    background-color: #0c0d0d;
+    background-color: #c9c9c9;
     width: 100%;
     padding: 100px 0px;
 }
 
 .port_serv h2{
-    color: white;
+    color: #212121;
     font-size: 75px;
     margin: 30px auto;
     text-align: center;
@@ -188,11 +190,15 @@ button:hover{
     display: flex;
 }
 
+.box3{
+    display: flex;
+}
+
 .card{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background:#373739; 
+    background:white; 
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -205,18 +211,18 @@ button:hover{
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: white;
+    color: #212121;
 }
 
 .card h5{ 
-    color: white;
+    color: #212121;
     font-size: 23px;
     margin-bottom: 15px;
     text-align: center;
 }
 
 .trab p{
-   color: white;
+   color: #212121;
    font-size: 18px;
    line-height: 27px;
    margin-bottom: 25px; 
@@ -243,7 +249,7 @@ footer{
     position: relative;
     width: 100%;
     height: 400px;
-    background-color: #373739;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -252,14 +258,14 @@ footer{
 
 footer p:nth-child(1){
     font-size: 30px;
-    color: white;
+    color: #212121;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
 footer p:nth-child(2){
     font-size: 20px;
-    color: white;
+    color: #212121;
     margin-bottom: 20px;
     letter-spacing: 2px;
 }
@@ -274,7 +280,7 @@ footer p:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #417cea;
+    background-color: #212121;
     border-radius: 50%;
     margin: 22px;
     color: white;
